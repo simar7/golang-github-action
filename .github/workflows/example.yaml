@@ -1,0 +1,15 @@
+name: Example
+on: [push]
+
+jobs:
+  my_job:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Mask fruit
+      uses: <username>/my-action@master
+      with:
+        fruit: banana
+
+    - name: Echo fruit
+      run: echo "apple, banana, and orange"
