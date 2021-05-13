@@ -1,4 +1,4 @@
-name: My Action
+name: Golang GitHub Action
 inputs:
   secrets:
     fruit: Name of fruit to mask
