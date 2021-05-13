@@ -7,7 +7,7 @@ jobs:
 
     steps:
     - name: Mask fruit
-      uses: <username>/my-action@master
+      uses: simar7/my-action@master
       with:
         fruit: banana
 
