@@ -7,8 +7,8 @@ jobs:
 
     steps:
     - name: Mask fruit
-      uses: simar7/golang-github-action@main
-#      uses: docker://simar7/golang-github-action:latest
+#      uses: simar7/golang-github-action@main
+      uses: docker://simar7/golang-github-action:latest
       with:
         fruit: banana
 
